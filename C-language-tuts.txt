@@ -19,6 +19,17 @@ int y = *ptr; // 'y' will be assigned the value of 'x' (10)
 
 Pointer Arithmetic: Pointers can be incremented and decremented to move through memory locations, which is especially useful for working with arrays.
 
+example:
+#include<stdio.h>
+int main(){
+    int x = 10;
+    int *ptr = &x;
+    int result = *ptr;
+    printf("%d", result);
+    return 0;
+}
+o/p 10
+
 
 
 2. Functions:
@@ -43,3 +54,16 @@ Parameters: Functions can take parameters, which are variables that receive valu
 Function Pointers: Like variables, functions can also have pointers. Function pointers allow you to store and call functions dynamically at runtime.
 
 Combining pointers and functions can be powerful in C. You can use function pointers to create callbacks, create data structures like linked lists and trees, and achieve more flexible and dynamic behavior in your programs.
+
+example:
+
+#include<stdio.h>
+int add(int a, int b){
+    return a+b;
+}
+int main(){
+    int result = add(6,5);
+    printf("%d", result);
+}
+
+o/p 11

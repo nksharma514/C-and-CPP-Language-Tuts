@@ -1,0 +1,5 @@
+Que. what is pointers and function in c language?
+Ans:   In the C programming language, pointers and functions are fundamental concepts that allow you to manipulate memory and create modular, reusable code.
+
+1. Pointers:
+A pointer is a variable that stores the memory address of another variable. It allows you to work with the memory directly and is a powerful feature in C. Here are some key aspects of pointers:
